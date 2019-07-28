@@ -1,5 +1,5 @@
 {% set name = "unumpy" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/Quansight-Labs/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 07777c96c0d559b27739f64f91c286842fc99ae409df61bd0d9f3c49c2a4c4f6
+  sha256: 9439b19a04275b97ef9cdc5a97ddd00939b022ad4685d366eba5ea1a511dc2c8
 
 build:
   noarch: python
