@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.5
-    - uarray
+    - uarray ==0.6
 
 test:
   imports:
